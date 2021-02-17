@@ -1,5 +1,5 @@
 
-const { expect } = require('@jest/globals')
+const { test, expect } = require('@jest/globals')
 const { sumOfPositive } = require('./sumOfPositive')
 
 test('return the sum of the positive numbers in the array', () => {
